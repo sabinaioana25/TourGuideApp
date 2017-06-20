@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detail_screen"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/padding_left_in_list"
+        android:paddingLeft="@dimen/padding_left_in_list"
+        android:paddingRight="@dimen/padding_left_in_list">
+
+        <ImageView
+            android:id="@+id/large_image"
+            android:layout_width="320dp"
+            android:layout_height="320dp" />
+
+        <TextView
+            android:id="@+id/title_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/text_size_title_detail"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/address_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_left_in_list"
+            android:paddingLeft="@dimen/padding_left_in_list"
+            android:paddingRight="@dimen/padding_left_in_list"
+            android:textSize="@dimen/text_size_address_detail" />
+
+        <TextView
+            android:id="@+id/description_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/padding_left_in_list"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/text_size_description" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:paddingTop="@dimen/padding_top_buttons">
+
+            <ImageView
+                android:id="@+id/go_to_website"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:src="@drawable/link_icon" />
+
+            <ImageView
+                android:id="@+id/go_to_map"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:src="@drawable/map" />
+
+            <ImageView
+                android:id="@+id/share"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:src="@drawable/share" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

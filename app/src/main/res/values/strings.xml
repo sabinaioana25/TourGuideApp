@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">TourGuideApp</string>
+    <string name="name_for_sights">Sights</string>
+    <string name="name_for_new">What\'s on</string>
+    <string name="name_for_food">Food and drink</string>
+    <string name="name_for_shops">Shopping</string>
+
+    <!--- Sights strings details -->
+    <string-array name="sights_name">
+        <item>Tower Bridge</item>
+        <item>Buckingham Palace</item>
+        <item>London Eye</item>
+        <item>Tate Modern</item>
+        <item>Shakespeare\'s Globe Theatre</item>
+        <item>Barbican</item>
+    </string-array>
+
+    <string-array name="sights_description">
+        <item>Tower Bridge is a combined bascule and suspension bridge in London
+        built between 1886 and 1894. The bridge crosses the River Thames close to the Tower of London and has
+        become an iconic symbol of London.</item>
+        <item>Buckingham Palace is the London residence and administrative headquarters
+        of the reigning monarch of the United Kingdom. Located in the City of Westminster, the palace is often at the
+        centre of state occasions and royal hospitality.</item>
+        <item>The London Eye is a giant Ferris wheel on the South Bank of the River Thames
+        in London. Also known as the Millennium Wheel, it has also been called by its owners the British Airways London Eye,
+        the Merlin Entertainments London Eye, the EDF Energy London Eye and, as of mid-January 2015, the Coca-Cola London Eye.</item>
+        <item>Tate Modern is a modern art gallery located in London. It is Britain\'s national gallery of
+        international modern art and forms part of the Tate group</item>
+        <item>Shakespeare\'s Globe is the complex housing a reconstruction of the Globe Theatre,
+        an Elizabethan playhouse associated with William Shakespeare, in the London Borough of Southwark, on the south bank of the River Thames.</item>
+        <item>The Barbican Centre is a performing arts centre in the City of London and the largest of its kind in Europe.
+        The Centre hosts classical and contemporary music concerts, theatre performances, film screenings and art exhibitions.</item>
+    </string-array>
+
+    <string-array name="sights_address">
+        <item>Tower Bridge Rd, London SE1 2UP</item>
+        <item>Westminster, London SW1A 1AA</item>
+        <item>Lambeth, London SE1 7PB</item>
+        <item>Bankside, London SE1 9TG</item>
+        <item>21 New Globe Walk, London SE1 9DT</item>
+        <item>Silk St, London EC2Y 8DS</item>
+    </string-array>
+
+    <string-array name="sights_website">
+        <item>http://www.towerbridge.org.uk/</item>
+        <item>https://www.royalcollection.org.uk/visit/the-state-rooms-buckingham-palace</item>
+        <item>https://www.londoneye.com/</item>
+        <item>http://www.tate.org.uk/visit/tate-modern</item>
+        <item>http://www.shakespearesglobe.com/</item>
+        <item>http://www.barbican.org.uk/</item>
+    </string-array>
+
+    <!--- New events strings details -->
+    <string-array name="new_name">
+        <item>Luna Cinema </item>
+        <item>Gigs at the Jazz Cafe</item>
+        <item>Silent Disco at Cutty Sark</item>
+        <item>Grayson Perry</item>
+        <item>Greenwich Festival</item>
+        <item>Tristan and Yseult</item>
+    </string-array>
+
+    <string-array name="new_description">
+        <item>The beauty of Luna Cinema is walking into a Royal Park or some
+        other date-perfect location with a picnic just as everyone else is leaving. </item>
+        <item>The Jazz Cafe is an award winning live music venue in Camden,
+        known for its well known jazz, hip hop, soul and funk artists gracing its stage.</item>
+        <item>Get ready to climb aboard the good ship Cutty Sark for Time Out\'s
+        legendary silent disco. Have a nose around the world-famous attraction before donning a pair of headphones and dancing the night away.</item>
+        <item>‘With great power comes great responsibility,’ said a wise uncle to
+        his superhero nephew once. It\’s a sentiment that hovers around Grayson Perry\’s exhibition.</item>
+        <item>From the cinematic waterfront setting of A View from the Bridge to exquisite
+        South Korean choreography in a column of water and an exuberant techno parade in Woolwich, GDIF 2017 offers outdoor
+        theatre adventures for everyone.</item>
+        <item>Tristan and Yseult, the most successful and beloved of all of Kneehigh\’s shows,
+        blends comedy, live music, grand passions and tender truths in an irresistible night of love.</item>
+    </string-array>
+
+    <string-array name="new_address">
+        <item>1 Davies St, London W1K 3DB</item>
+        <item>5 Parkway, Camden Town, London NW1 7PG</item>
+        <item>King William Walk, London SE10 9HT</item>
+        <item>32 London Bridge St, London SE1 9SG</item>
+        <item>London SE10 8XJ</item>
+        <item>Shakespeare Globe, South Bank</item>
+    </string-array>
+
+    <string-array name="new_website">
+        <item>http://www.thelunacinema.com</item>
+        <item>http://www.thejazzcafelondon.com/</item>
+        <item>http://www.visitgreenwich.org.uk/events/time-out-silent-disco-at-cutty-sark/</item>
+        <item>http://www.serpentinegalleries.org/</item>
+        <item>http://www.festival.org/festival/overview/15/2017/</item>
+        <item>http://www.kneehigh.co.uk/</item>
+    </string-array>
+
+    <!--- Food places strings details -->
+    <string-array name="food_name">
+        <item>Greenwich Union</item>
+        <item>Ryal Teas</item>
+        <item>Jamie\'s Italian </item>
+        <item>Zero Degrees</item>
+        <item>Stick \'n\' Sushi</item>
+        <item>Franco Manca</item>
+        <item>BiBimBap</item>
+    </string-array>
+
+    <string-array name="food_description">
+        <item>Compact pub with flagstone floors that brews its own beers and also has an international food menu.</item>
+        <item>Simple cafe for vegetarian breakfasts and lunches, tea, cakes and coffee beans ground to order.</item>
+        <item>Celebrity chef\'s relaxed Italian chain, with rustic menu and antipasti bar.</item>
+        <item>Fresh beer straight from the copper tanks plus wood-fired pizza and kilo pots of mussels.</item>
+        <item>Japanese restaurant based on a renowned Danish concept, offering sushi and grilled yakitori skewers.</item>
+        <item>Franco Manca is a sourdough pizza business with 36 pizzeria in London and southern England.</item>
+        <item>Bibimbap, sometimes anglicized as bi bim bap or bi bim bop, is a Korean dish. The word literally means "mixed rice".</item>
+    </string-array>
+
+    <string-array name="food_address">
+        <item>56 Royal Hill, Greenwich, London SE10 8RT</item>
+        <item>76 Royal Hill, Greenwich, London SE10 8RT</item>
+        <item>17-19 Nelson Rd, Greenwich, London SE10 9JB</item>
+        <item>29-31 Montpelier Vale, Lewisham, London SE3 0TJ</item>
+        <item>11 Henrietta St, London WC2E 8PY</item>
+        <item>51 Berwick St, Soho, London W1F 8SJ</item>
+        <item>11 Greek St, Soho, London W1D 4DJ</item>
+    </string-array>
+
+    <string-array name="food_website">
+        <item>www.greenwichunion.com/</item>
+        <item>https://www.royalteascafe.co.uk/</item>
+        <item>https://www.jamieoliver.com/italian/restaurants/greenwich</item>
+        <item>www.zerodegrees.co.uk</item>
+        <item>http://www.sticksnsushi.co.uk/</item>
+        <item>http://www.francomanca.co.uk</item>
+        <item>www.bibimbapsoho.co.uk</item>
+    </string-array>
+
+    <!--- Shopping places strings details -->
+    <string-array name="shop_name">
+        <item>Victoria Place</item>
+        <item>Westfield Stratford</item>
+        <item>Angel</item>
+        <item>Oxford Street</item>
+        <item>Harrods</item>
+    </string-array>
+
+    <string-array name="shop_description">
+        <item>Shopping centre above station for clothing and gifts with a supermarket and fast-food outlets.</item>
+        <item>With a total retail floor area of 1,905,542 square feet, it is one of the largest urban shopping centres in Europe.</item>
+        <item>Located off the ever-hip Upper Street, Angel Central Shopping Centre (formerly known at The N1 Centre) has a vibrant and
+        stylish collection of shops, cafes, restaurants, cinemas and music venues under its roof.</item>
+        <item>Oxford Street is best known for Selfridges and the other big department
+        stores which are all found in the section from Marble Arch to Oxford Circus, along with most of the big-name multinationals.</item>
+        <item>Harrods is a luxury department store located on Brompton Road in Knightsbridge, London. It is owned by the state of Qatar.</item>
+    </string-array>
+
+    <string-array name="shop_address">
+        <item>115 Buckingham Palace Rd, London SW1W 9SJ</item>
+        <item>Montfichet Rd, London E20 1EJ</item>
+        <item>21 Parkfield St, London N1 0PS</item>
+        <item>Oxford St, Soho, London W1B 3AG</item>
+        <item>87-135 Brompton Rd, Knightsbridge, London SW1X 7XL</item>
+    </string-array>
+
+    <string-array name="shop_website">
+        <item>www.victoriaplace.co.uk/</item>
+        <item>https://uk.westfield.com/stratfordcity</item>
+        <item>www.angelcentral.co.uk/</item>
+        <item>https://www.oxfordstreet.co.uk/shop/</item>
+        <item>https://www.harrods.com/</item>
+    </string-array>
+</resources>

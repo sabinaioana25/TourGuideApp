@@ -32,9 +32,9 @@ public class PlaceDetailActivity extends AppCompatActivity {
 
         //Get extras from the intent in the MainActivity, using the 'keys' provided
         Bundle bundle = getIntent().getExtras();
-        String name = bundle.getString("name");
-        String address = bundle.getString("address");
-        int image = bundle.getInt("image");
+        String name = bundle.getString(getString(R.string.key_name));
+        String address = bundle.getString(getString(R.string.key_address));
+        int image = bundle.getInt(getString(R.string.key_image));
         String description = bundle.getString("description");
         final String website = bundle.getString("website");
 
@@ -44,14 +44,14 @@ public class PlaceDetailActivity extends AppCompatActivity {
         ImageView detailImage = (ImageView) findViewById(R.id.large_image);
         detailImage.setImageResource(image);
 
-        TextView detailTitle = (TextView) findViewById(R.id.title_large);
-        detailTitle.setText(name);
+//        TextView detailTitle = (TextView) findViewById(R.id.title_large);
+        titleView.setText(name);
 
-        TextView detailAddress = (TextView) findViewById(R.id.address_large);
-        detailAddress.setText(address);
+//        TextView detailAddress = (TextView) findViewById(R.id.address_large);
+        addressView.setText(address);
 
-        TextView detailDescription = (TextView) findViewById(R.id.description_large);
-        detailDescription.setText(description);
+//        TextView detailDescription = (TextView) findViewById(R.id.description_large);
+        descripView.setText(description);
 
         //Intent for opening a browser app and navigating to the website;
         //Intent corresponds  to the 'link' ImageView in activity_place_detail
@@ -71,8 +71,8 @@ public class PlaceDetailActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intentShare = new Intent(Intent.ACTION_SENDTO);
-                intentShare.setData(Uri.parse("mailto:developer@example.com"));
-                intentShare.putExtra(Intent.EXTRA_SUBJECT, "USE THIS APP TO FIND KEY ATTRACTIONS IN LONDON");
+                intentShare.setData(Uri.parse(getString(R.string.email_data)));
+                intentShare.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.email_subject));
                 startActivity(intentShare);
             }
         });

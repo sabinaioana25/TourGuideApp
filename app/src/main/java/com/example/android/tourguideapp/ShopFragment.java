@@ -30,14 +30,14 @@ public class ShopFragment extends Fragment {
         final String[] shopDescription = getResources().getStringArray(R.array.shop_description);
         final String[] shopWebsite = getResources().getStringArray(R.array.shop_website);
 
-        final ArrayList<Place> places = new ArrayList<Place>();
+        final ArrayList<Place> places = new ArrayList<>();
 
         //Using an 'if' statement to go through each item each list.
         for (int i = 0; i <= 4; i++) {
             places.add(new Place(shopName[i], shopAddress[i], imageShop[i]));
         }
 
-        final placeAdapter adapter = new placeAdapter(getActivity(), places, R.color.primary_light);
+        final PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.primary_light);
         final ListView placesListView = (ListView) rootView.findViewById(R.id.list);
         placesListView.setAdapter(adapter);
 
@@ -46,11 +46,11 @@ public class ShopFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(getActivity(), PlaceDetailActivity.class);
-                intent.putExtra("name", shopName[position]);
-                intent.putExtra("address", shopAddress[position]);
-                intent.putExtra("description", shopDescription[position]);
-                intent.putExtra("website", shopWebsite[position]);
-                intent.putExtra("image", imageShop[position]);
+                intent.putExtra(getString(R.string.key_name), shopName[position]);
+                intent.putExtra(getString(R.string.key_address), shopAddress[position]);
+                intent.putExtra(getString(R.string.key_description), shopDescription[position]);
+                intent.putExtra(getString(R.string.key_website), shopWebsite[position]);
+                intent.putExtra(getString(R.string.key_image), imageShop[position]);
                 startActivity(intent);
             }
         });

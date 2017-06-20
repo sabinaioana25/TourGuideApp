@@ -37,7 +37,7 @@ public class NewsFragment extends Fragment {
             places.add(new Place(newName[i], newAddress[i], imageNew[i]));
         }
 
-        final placeAdapter adapter = new placeAdapter(getActivity(), places, R.color.primary_light);
+        final PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.primary_light);
         final ListView placesListView = (ListView) rootView.findViewById(R.id.list);
         placesListView.setAdapter(adapter);
 
@@ -46,11 +46,11 @@ public class NewsFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(getActivity(), PlaceDetailActivity.class);
-                intent.putExtra("name", newName[position]);
-                intent.putExtra("address", newAddress[position]);
-                intent.putExtra("description", newDescription[position]);
-                intent.putExtra("website", newWebsite[position]);
-                intent.putExtra("image", imageNew[position]);
+                intent.putExtra(getString(R.string.key_name), newName[position]);
+                intent.putExtra(getString(R.string.key_address), newAddress[position]);
+                intent.putExtra(getString(R.string.key_description), newDescription[position]);
+                intent.putExtra(getString(R.string.key_website), newWebsite[position]);
+                intent.putExtra(getString(R.string.key_image), imageNew[position]);
                 startActivity(intent);
             }
         });

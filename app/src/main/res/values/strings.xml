@@ -1,9 +1,18 @@
 <resources>
+
     <string name="app_name">TourGuideApp</string>
-    <string name="name_for_sights">Sights</string>
-    <string name="name_for_new">What\'s on</string>
-    <string name="name_for_food">Food and drink</string>
-    <string name="name_for_shops">Shopping</string>
+    <string name="tab_sight">Sights</string>
+    <string name="tab_new">What\'s on</string>
+    <string name="tab_food">Food and drink</string>
+    <string name="tab_shop">Shopping</string>
+    <string name="email_subject">USE THIS APP TO FIND KEY ATTRACTIONS IN LONDON</string>
+    <string name="email_data">mailto:developer@example.com</string>
+    <string name="key_name">name</string>
+    <string name="key_address">address</string>
+    <string name="key_image">image</string>
+    <string name="key_description">description</string>
+    <string name="key_website">website</string>
+
 
     <!--- Sights strings details -->
     <string-array name="sights_name">
@@ -119,8 +128,8 @@
     <string-array name="food_address">
         <item>56 Royal Hill, Greenwich, London SE10 8RT</item>
         <item>76 Royal Hill, Greenwich, London SE10 8RT</item>
-        <item>17-19 Nelson Rd, Greenwich, London SE10 9JB</item>
-        <item>29-31 Montpelier Vale, Lewisham, London SE3 0TJ</item>
+        <item>17-,19 Nelson Rd, Greenwich, London SE10 9JB</item>
+        <item>29-,31 Montpelier Vale, Lewisham, London SE3 0TJ</item>
         <item>11 Henrietta St, London WC2E 8PY</item>
         <item>51 Berwick St, Soho, London W1F 8SJ</item>
         <item>11 Greek St, Soho, London W1D 4DJ</item>
@@ -146,12 +155,12 @@
     </string-array>
 
     <string-array name="shop_description">
-        <item>Shopping centre above station for clothing and gifts with a supermarket and fast-food outlets.</item>
+        <item>Shopping centre above station for clothing and gifts with a supermarket and fast-,food outlets.</item>
         <item>With a total retail floor area of 1,905,542 square feet, it is one of the largest urban shopping centres in Europe.</item>
-        <item>Located off the ever-hip Upper Street, Angel Central Shopping Centre (formerly known at The N1 Centre) has a vibrant and
+        <item>Located off the ever-,hip Upper Street, Angel Central Shopping Centre (formerly known at The N1 Centre) has a vibrant and
         stylish collection of shops, cafes, restaurants, cinemas and music venues under its roof.</item>
         <item>Oxford Street is best known for Selfridges and the other big department
-        stores which are all found in the section from Marble Arch to Oxford Circus, along with most of the big-name multinationals.</item>
+        stores which are all found in the section from Marble Arch to Oxford Circus, along with most of the big-,name multinationals.</item>
         <item>Harrods is a luxury department store located on Brompton Road in Knightsbridge, London. It is owned by the state of Qatar.</item>
     </string-array>
 

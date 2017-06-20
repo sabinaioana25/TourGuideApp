@@ -15,11 +15,11 @@ import java.util.ArrayList;
  * Created by Sabina on 6/12/2017.
  */
 
-public class placeAdapter extends ArrayAdapter<Place> {
+public class PlaceAdapter extends ArrayAdapter<Place> {
 
     private int mColorResourceId;
 
-    public placeAdapter(Context context, ArrayList<Place> places, int coloResourceId) {
+    public PlaceAdapter(Context context, ArrayList<Place> places, int coloResourceId) {
         super(context, 0, places);
         mColorResourceId = coloResourceId;
     }

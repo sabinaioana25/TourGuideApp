@@ -30,14 +30,14 @@ public class SightsFragment extends Fragment {
         final String[] sightDescription = getResources().getStringArray(R.array.sights_description);
         final String[] sightWebsite = getResources().getStringArray(R.array.sights_website);
 
-        final ArrayList<Place> places = new ArrayList<Place>();
+        final ArrayList<Place> places = new ArrayList<>();
 
         //Using an 'if' statement to go through each item each list.
         for (int i = 0; i <= 5; i++) {
             places.add(new Place(sightName[i], sightAddress[i], imageSight[i]));
         }
 
-        final placeAdapter adapter = new placeAdapter(getActivity(), places, R.color.primary_light);
+        final PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.primary_light);
         final ListView placesListView = (ListView) rootView.findViewById(R.id.list);
         placesListView.setAdapter(adapter);
 
@@ -46,11 +46,11 @@ public class SightsFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(getActivity(), PlaceDetailActivity.class);
-                intent.putExtra("name", sightName[position]);
-                intent.putExtra("address", sightAddress[position]);
-                intent.putExtra("description", sightDescription[position]);
-                intent.putExtra("website", sightWebsite[position]);
-                intent.putExtra("image", imageSight[position]);
+                intent.putExtra(getString(R.string.key_name), sightName[position]);
+                intent.putExtra(getString(R.string.key_address), sightAddress[position]);
+                intent.putExtra(getString(R.string.key_description), sightDescription[position]);
+                intent.putExtra(getString(R.string.key_website), sightWebsite[position]);
+                intent.putExtra(getString(R.string.key_image), imageSight[position]);
                 startActivity(intent);
             }
         });

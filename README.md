@@ -1,6 +1,6 @@
 # ABND | TourGuideApp
 The goal is to create a tour guide app which presents relevant information to a user who’s visiting your city. The app can list top attractions, restaurants, public places, or events for the city. It can contain all the best known secrets that only locals know.
-This is the sixth project completed for the Android Basics Nanodegree program offered by Udacity in collaboration with Google.
+This is the sixth project completed for the Android Basics Nanodegree program offered by Udacity in collaboration with Google. This is a proposed design for the Android app.
 
 ![](main_screen_1.png)
 ![](detail_screen_1.png) ![](detail_screen_2.png)

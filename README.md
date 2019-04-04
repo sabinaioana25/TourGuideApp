@@ -4,7 +4,7 @@ This is the sixth project completed for the Android Basics Nanodegree program of
 
 ![](MainScreen.png)
 ![](detail_screen_1.png) ![](DetailScreenPlaces.png)
-![](DetailScreenEat.png)
+![](DetailScreenEat.png) ![](DetailScreenEvents.png)
 
 # Pre-requisites
 Android SDK v22 Android Build Tools v22.0.1 Android Support Repository v22.1.1

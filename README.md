@@ -2,10 +2,9 @@
 The goal is to create a tour guide app which presents relevant information to a user who’s visiting your city. The app can list top attractions, restaurants, public places, or events for the city. It can contain all the best known secrets that only locals know.
 This is the sixth project completed for the Android Basics Nanodegree program offered by Udacity in collaboration with Google. This is a proposed design for the Android app.
 
-![](main_screen_1.png)
-![](detail_screen_1.png) ![](detail_screen_2.png)
-![](detail_screen_3.png) ![](detail_screen_4.png)
-
+![](MainScreen.png)
+![](detail_screen_1.png) ![](DetailScreenPlaces.png)
+![](DetailScreenEat.png)
 
 # Pre-requisites
 Android SDK v22 Android Build Tools v22.0.1 Android Support Repository v22.1.1
